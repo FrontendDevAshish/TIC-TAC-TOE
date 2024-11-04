@@ -1,9 +1,5 @@
-import React from 'react'
-
-const Strike = () => {
-  return (
-    <div>Strike</div>
-  )
+function Strike({ strikeClass }) {
+  return <div className={`strike ${strikeClass}`}></div>;
 }
 
-export default Strike
+export default Strike;
