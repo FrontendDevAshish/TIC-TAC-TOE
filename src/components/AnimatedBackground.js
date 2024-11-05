@@ -23,7 +23,7 @@ const AnimatedBackground = () => {
         }}
       />
     );
-    jjjj
+    
   };
 
 export default AnimatedBackground
